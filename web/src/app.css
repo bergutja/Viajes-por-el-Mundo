@@ -1,0 +1,62 @@
+:root {
+  font: 15px/1.6 'Segoe UI', Arial, sans-serif;
+  color: #234536;
+  background: #f7f8f3;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; cursor: pointer; }
+button:disabled { cursor: wait; opacity: .65; }
+header, main, footer { width: min(1120px, calc(100% - 64px)); margin-inline: auto; }
+header { height: 100px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #dfe5d9; }
+.brand { font-size: 33px; font-weight: 750; letter-spacing: -1.7px; display: inline-flex; align-items: center; gap: 8px; }
+.brand svg { width: 33px; height: 33px; stroke: currentColor; stroke-width: 1.5; }
+.brand span { color: #98b57b; }
+.local-label { font-size: 10px; letter-spacing: .14em; border: 1px solid #dce3d2; padding: 6px 12px; border-radius: 30px; color: #718168; }
+main { display: grid; grid-template-columns: 1fr 365px; gap: 65px; align-items: center; min-height: calc(100svh - 190px); padding-block: 70px; }
+.eyebrow { font-size: 10px; letter-spacing: .16em; font-weight: 650; color: #73816b; margin: 0 0 22px; }
+h1 { font-size: clamp(38px, 4.8vw, 63px); line-height: 1.13; letter-spacing: -.045em; font-weight: 650; margin: 0 0 24px; }
+h1 em { font-family: Georgia, serif; color: #799560; font-weight: 400; }
+.description { color: #71806d; max-width: 420px; font-size: 15px; line-height: 1.85; margin: 0; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 30px; }
+.button { display: inline-flex; align-items: center; justify-content: center; gap: 14px; border: 1px solid transparent; border-radius: 8px; min-height: 43px; padding: 10px 16px; font-size: 12px; font-weight: 600; }
+.primary { color: white; background: #234e3c; }
+.primary:hover { background: #173c2b; }
+.secondary { background: transparent; color: #36543e; border-color: #d6decf; }
+.secondary:hover:not(:disabled) { background: #edf2e4; }
+.caption { font-size: 10px; color: #8b9384; margin-top: 16px; }
+.connection-card { padding: 30px; border: 1px solid #dce4d3; border-radius: 18px; background: #eef2e6; }
+.card-symbol { display: grid; place-items: center; height: 44px; width: 44px; color: #d8e9b3; background: #234e3c; border-radius: 12px; font-size: 27px; margin-bottom: 24px; }
+.connection-card .eyebrow { font-size: 9px; margin-bottom: 10px; }
+h2 { font-size: 27px; letter-spacing: -.035em; line-height: 1.2; font-weight: 600; margin: 0 0 25px; }
+.service-row { padding-block: 16px; border-top: 1px solid #d8e0cd; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.service-row strong { display: block; font-size: 12px; font-weight: 600; }
+.service-row small { display: block; font-size: 10px; color: #7b8771; margin-top: 2px; }
+.status { font-size: 10px; display: inline-flex; align-items: center; gap: 5px; color: #8a8056; white-space: nowrap; }
+.status.online { color: #527d43; }
+.status.offline { color: #a25c42; }
+.dot { display: inline-block; width: 5px; height: 5px; background: currentColor; border-radius: 50%; }
+.connection-help { font-size: 11px; color: #7a866f; margin-top: 16px; line-height: 1.8; min-height: 40px; }
+code { font-size: 10px; color: #516742; }
+.verify { width: 100%; margin-top: 7px; background: #f8faf3; }
+footer { min-height: 90px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border-top: 1px solid #dfe5d9; color: #8b9583; font-size: 10px; }
+:focus-visible { outline: 3px solid #95b776; outline-offset: 4px; }
+@media (max-width: 900px) {
+  main { gap: 35px; grid-template-columns: 1fr 310px; }
+  .connection-card { padding: 24px; }
+  h1 { font-size: 43px; }
+}
+@media (max-width: 700px) {
+  header, main, footer { width: calc(100% - 40px); }
+  header { height: 80px; }
+  main { grid-template-columns: 1fr; padding-block: 44px; gap: 35px; }
+  h1 { font-size: 46px; }
+  .description { font-size: 14px; }
+  .connection-card { max-width: 450px; width: 100%; }
+  footer { padding-block: 20px; flex-direction: column; align-items: start; gap: 5px; min-height: auto; }
+}

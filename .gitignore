@@ -1,0 +1,36 @@
+# Secrets and local proxy credentials
+.env
+.env.*
+!.env.example
+.npmrc
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Node and generated builds
+node_modules/
+web/dist/
+web/dist-ssr/
+*.tsbuildinfo
+
+# Local databases, including SQLite journal files
+data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.duckdb
+*.duckdb.*
+
+# Runtime files and editors
+.run/
+*.log
+.idea/
+.DS_Store
