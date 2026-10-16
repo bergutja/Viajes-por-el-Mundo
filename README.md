@@ -216,6 +216,26 @@ Debe devolver `status: ok` y `service: rumbo-api`.
 
 `.gitignore` excluye `.env`, `.venv`, `node_modules`, compilaciones, logs y `data/`, donde están el índice y los resultados de las pruebas reales. También excluye bases de datos locales y archivos auxiliares de SQLite. El catálogo `datos/documentos.json` y los dos archivos de bloqueo sí se versionan. No se ha creado una base de datos SQL.
 
+## Entregable y capturas
+
+`entregable.html` es el informe para A4 y `entregable.pdf` su versión PDF. La carpeta `capturas/` contiene cinco PNG reales de la aplicación y `comprobacion.json`, con las preguntas, respuestas y fragmentos contrastados con el catálogo. Conserva esa carpeta junto al HTML para que funcionen las imágenes relativas.
+
+Con los dos servidores activos, desde `web/`:
+
+```powershell
+node capturas.mjs
+```
+
+El script usa `playwright-core` con Microsoft Edge instalado (`channel: 'msedge'`), sin descargar navegadores. Abre una ventana de 1366 × 900 y captura la página completa; amplía el área del chat cuando es necesario para incluir completas las fuentes. Envía las cuatro preguntas en la misma conversación, verifica las respuestas y genera el HTML y el PDF A4. Repetir la prueba consulta la API del modelo.
+
+Para regenerar únicamente el PDF a partir del HTML y las capturas existentes, sin repetir preguntas:
+
+```powershell
+node capturas.mjs --pdf-only
+```
+
+El número de páginas y el tamaño del PDF se guardan en `capturas/pdf-resumen.json`. Para confirmar las respuestas manualmente, abre en Documentos los registros `RUT-JP-001` (destino y duración), `PRE-JP-001` (presupuesto) y `CAT-000` (alcance).
+
 ## Referencias oficiales
 
 - [Node.js: descargas](https://nodejs.org/en/download)

@@ -1,0 +1,102 @@
+{
+  "fecha": "16/10/2026, 13:19:20",
+  "navegador": "Microsoft Edge (channel: msedge)",
+  "ventana": "1366 × 900",
+  "origen": "http://127.0.0.1:5173",
+  "modelos": {
+    "respuestas": "gpt-6-luna",
+    "embeddings": "text-embedding-3-small"
+  },
+  "documentos": 13,
+  "resultados": [
+    {
+      "pregunta": "¿Qué continente visitar?",
+      "respuesta": "El continente es Asia.",
+      "fuentes": [
+        {
+          "documento_id": "RUT-JP-001",
+          "titulo": "Japón · Itinerario esencial",
+          "tipo": "Itinerario",
+          "fragmento_id": "RUT-JP-001:1",
+          "seccion": "Destino y enfoque",
+          "fragmento": "Continente: Asia. País: Japón. Ruta cultural, urbana y de naturaleza: Tokio → Hakone → Kioto (excursión a Nara) → Osaka.",
+          "similitud": 0.486347
+        }
+      ],
+      "consta": true,
+      "modelo_consultado": true,
+      "datos_de_ejemplo": true,
+      "captura": "capturas/01-chat-continente.png",
+      "citas_coinciden_con_catalogo": true
+    },
+    {
+      "pregunta": "¿Cuántos días dura la ruta?",
+      "respuesta": "La ruta dura 12 días y 11 noches.",
+      "fuentes": [
+        {
+          "documento_id": "RUT-JP-001",
+          "titulo": "Japón · Itinerario esencial",
+          "tipo": "Itinerario",
+          "fragmento_id": "RUT-JP-001:2",
+          "seccion": "Distribución de días",
+          "fragmento": "Duración: 12 días / 11 noches. Días 1–4: Tokio; 5–6: Hakone; 7–10: Kioto y Nara; 11–12: Osaka. Los traslados se incluyen en estas jornadas.",
+          "similitud": 0.439649
+        }
+      ],
+      "consta": true,
+      "modelo_consultado": true,
+      "datos_de_ejemplo": true,
+      "captura": "capturas/02-chat-duracion.png",
+      "citas_coinciden_con_catalogo": true
+    },
+    {
+      "pregunta": "¿Cuál es el coste de la ruta?",
+      "respuesta": "El coste estimado es de 1.850 € por persona. Es un ejemplo ficticio y no incluye vuelos internacionales ni seguro.",
+      "fuentes": [
+        {
+          "documento_id": "PRE-JP-001",
+          "titulo": "Japón · Presupuesto de ruta",
+          "tipo": "Presupuesto",
+          "fragmento_id": "PRE-JP-001:1",
+          "seccion": "Desglose e inclusiones",
+          "fragmento": "Total por persona: 1.850 €. Alojamiento (11 noches): 770 €; transporte: 320 €; comidas: 420 €; visitas: 180 €; imprevistos: 160 €. Habitación doble compartida. Excluye vuelos internacionales y seguro.",
+          "similitud": 0.525912
+        },
+        {
+          "documento_id": "PRE-JP-001",
+          "titulo": "Japón · Presupuesto de ruta",
+          "tipo": "Presupuesto",
+          "fragmento_id": "PRE-JP-001:2",
+          "seccion": "Supuestos del presupuesto",
+          "fragmento": "Estimación ficticia por persona para dos adultos compartiendo habitación doble. Sin tarifas en directo, disponibilidad ni reservas. Los precios y fechas de este registro pertenecen exclusivamente a la demostración.",
+          "similitud": 0.47319
+        }
+      ],
+      "consta": true,
+      "modelo_consultado": true,
+      "datos_de_ejemplo": true,
+      "captura": "capturas/03-chat-coste.png",
+      "citas_coinciden_con_catalogo": true
+    },
+    {
+      "pregunta": "¿Cuántas rutas se hicieron el año pasado?",
+      "respuesta": "No consta en los datos.",
+      "fuentes": [
+        {
+          "documento_id": "CAT-000",
+          "titulo": "Alcance de la biblioteca",
+          "tipo": "Catálogo",
+          "fragmento_id": "CAT-000:1",
+          "seccion": "Cobertura y limitaciones",
+          "fragmento": "Esta colección contiene 6 itinerarios y 6 presupuestos. No contiene reservas, salidas realizadas, número de viajeros ni estadísticas de ejecución por año.",
+          "similitud": null
+        }
+      ],
+      "consta": false,
+      "modelo_consultado": false,
+      "datos_de_ejemplo": true,
+      "captura": "capturas/04-chat-no-consta.png",
+      "citas_coinciden_con_catalogo": true
+    }
+  ]
+}
