@@ -1,0 +1,7 @@
+{
+  "pregunta": "¿Cuántas rutas se hicieron el año pasado?",
+  "historial": [
+    {"rol": "user", "contenido": "¿Cuál es el coste de la ruta de Japón?"},
+    {"rol": "assistant", "contenido": "El presupuesto ficticio es de 1.850 € por persona."}
+  ]
+}

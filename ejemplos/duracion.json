@@ -1,0 +1,7 @@
+{
+  "pregunta": "¿Cuántos días dura la ruta?",
+  "historial": [
+    {"rol": "user", "contenido": "¿Qué continente visitar?"},
+    {"rol": "assistant", "contenido": "La propuesta de ejemplo es Japón, en Asia."}
+  ]
+}

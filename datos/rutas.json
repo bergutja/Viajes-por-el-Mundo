@@ -1,0 +1,543 @@
+{
+  "total": 6,
+  "rutas": [
+    {
+      "id": "RUT-JP-001",
+      "codigo": "JP",
+      "pais": "Japón",
+      "continente": "Asia",
+      "titulo": "Entre templos y neones",
+      "titulo_completo": "Japón, entre templos y neones",
+      "dias": 12,
+      "noches": 11,
+      "precio": 1850,
+      "categoria": "Cultura & naturaleza",
+      "etiqueta": "Un primer gran viaje",
+      "descripcion": "Del pulso de Tokio a los jardines de Kioto. Un viaje para descubrir los contrastes de Japón, sin prisas.",
+      "temporada": "Primavera u otoño",
+      "transporte": "Tren y transporte local",
+      "presupuesto": [
+        {
+          "concepto": "Alojamiento",
+          "importe": 770
+        },
+        {
+          "concepto": "Transporte en destino",
+          "importe": 320
+        },
+        {
+          "concepto": "Comidas",
+          "importe": 420
+        },
+        {
+          "concepto": "Visitas y actividades",
+          "importe": 180
+        },
+        {
+          "concepto": "Margen para imprevistos",
+          "importe": 160
+        }
+      ],
+      "etapas": [
+        {
+          "ciudad": "Tokio",
+          "rango": "1–4",
+          "dias": 4,
+          "descripcion": "Empieza entre barrios que cambian a cada paso: tradición en Asakusa, energía en Shibuya y una pausa en sus jardines.",
+          "lugares": [
+            "Sensō-ji",
+            "Shibuya",
+            "Jardines de Shinjuku"
+          ],
+          "traslado": "Tren hacia Hakone en la siguiente etapa"
+        },
+        {
+          "ciudad": "Hakone",
+          "rango": "5–6",
+          "dias": 2,
+          "descripcion": "Dos jornadas entre montaña y agua, con tiempo para explorar el lago y descansar en un alojamiento tradicional.",
+          "lugares": [
+            "Lago Ashi",
+            "Santuario de Hakone",
+            "Museo al Aire Libre"
+          ],
+          "traslado": "Tren a Kioto vía Odawara"
+        },
+        {
+          "ciudad": "Kioto y Nara",
+          "rango": "7–10",
+          "dias": 4,
+          "descripcion": "Templos, calles de madera y jardines. Reserva una de las jornadas para una excursión a Nara.",
+          "lugares": [
+            "Fushimi Inari",
+            "Arashiyama",
+            "Gion",
+            "Tōdai-ji, Nara"
+          ],
+          "traslado": "Tren a Osaka"
+        },
+        {
+          "ciudad": "Osaka",
+          "rango": "11–12",
+          "dias": 2,
+          "descripcion": "Termina entre mercados y luces, con un paseo por el castillo y una última cena para recordar.",
+          "lugares": [
+            "Dōtonbori",
+            "Castillo de Osaka",
+            "Mercado Kuromon"
+          ],
+          "traslado": "Fin de la ruta en Osaka"
+        }
+      ],
+      "documentos": [
+        "RUT-JP-001",
+        "PRE-JP-001"
+      ]
+    },
+    {
+      "id": "RUT-PT-001",
+      "codigo": "PT",
+      "pais": "Portugal",
+      "continente": "Europa",
+      "titulo": "El arte de ir despacio",
+      "titulo_completo": "Portugal, el arte de ir despacio",
+      "dias": 7,
+      "noches": 6,
+      "precio": 790,
+      "categoria": "Ciudad & gastronomía",
+      "etiqueta": "A un salto de casa",
+      "descripcion": "Azulejos, miradores y calles que invitan a perder la noción del tiempo. De Lisboa a Oporto, con una parada en Sintra.",
+      "temporada": "Primavera u otoño",
+      "transporte": "Tren y paseos",
+      "presupuesto": [
+        {
+          "concepto": "Alojamiento",
+          "importe": 300
+        },
+        {
+          "concepto": "Transporte en destino",
+          "importe": 95
+        },
+        {
+          "concepto": "Comidas",
+          "importe": 210
+        },
+        {
+          "concepto": "Visitas y actividades",
+          "importe": 90
+        },
+        {
+          "concepto": "Margen para imprevistos",
+          "importe": 95
+        }
+      ],
+      "etapas": [
+        {
+          "ciudad": "Lisboa",
+          "rango": "1–3",
+          "dias": 3,
+          "descripcion": "Recorre la ciudad por barrios, alternando miradores y paseos junto al Tajo.",
+          "lugares": [
+            "Alfama",
+            "Belém",
+            "Mirador de Santa Lucía"
+          ],
+          "traslado": "Tren a Sintra"
+        },
+        {
+          "ciudad": "Sintra",
+          "rango": "4",
+          "dias": 1,
+          "descripcion": "Dedica el día a palacios y jardines antes de regresar a Lisboa para dormir.",
+          "lugares": [
+            "Palacio da Pena",
+            "Quinta da Regaleira"
+          ],
+          "traslado": "Regreso a Lisboa y tren a Oporto al día siguiente"
+        },
+        {
+          "ciudad": "Oporto",
+          "rango": "5–7",
+          "dias": 3,
+          "descripcion": "Cierra la ruta entre calles empinadas, librerías y las dos orillas del Duero.",
+          "lugares": [
+            "Ribeira",
+            "Puente de Dom Luís I",
+            "Jardines del Palacio de Cristal"
+          ],
+          "traslado": "Fin de la ruta en Oporto"
+        }
+      ],
+      "documentos": [
+        "RUT-PT-001",
+        "PRE-PT-001"
+      ]
+    },
+    {
+      "id": "RUT-PE-001",
+      "codigo": "PE",
+      "pais": "Perú",
+      "continente": "América",
+      "titulo": "Tras la huella de los Andes",
+      "titulo_completo": "Perú, tras la huella de los Andes",
+      "dias": 10,
+      "noches": 9,
+      "precio": 1390,
+      "categoria": "Historia & aventura",
+      "etiqueta": "Historias a gran altura",
+      "descripcion": "Un camino de costa a montaña, con jornadas tranquilas de adaptación antes de explorar el Valle Sagrado.",
+      "temporada": "Temporada seca, a confirmar",
+      "transporte": "Vuelo interno, tren y traslados",
+      "presupuesto": [
+        {
+          "concepto": "Alojamiento",
+          "importe": 360
+        },
+        {
+          "concepto": "Transporte en destino",
+          "importe": 380
+        },
+        {
+          "concepto": "Comidas",
+          "importe": 250
+        },
+        {
+          "concepto": "Visitas y actividades",
+          "importe": 280
+        },
+        {
+          "concepto": "Margen para imprevistos",
+          "importe": 120
+        }
+      ],
+      "etapas": [
+        {
+          "ciudad": "Lima",
+          "rango": "1–2",
+          "dias": 2,
+          "descripcion": "Primer contacto junto al Pacífico y un recorrido por el centro histórico.",
+          "lugares": [
+            "Barranco",
+            "Malecón de Miraflores",
+            "Centro histórico"
+          ],
+          "traslado": "Vuelo interno a Cusco incluido en el ejemplo"
+        },
+        {
+          "ciudad": "Cusco",
+          "rango": "3–5",
+          "dias": 3,
+          "descripcion": "Jornadas a ritmo suave para adaptarte a la altitud antes de salir al valle.",
+          "lugares": [
+            "San Blas",
+            "Plaza de Armas",
+            "Sacsayhuamán"
+          ],
+          "traslado": "Traslado al Valle Sagrado"
+        },
+        {
+          "ciudad": "Valle Sagrado",
+          "rango": "6–7",
+          "dias": 2,
+          "descripcion": "Visita pueblos y paisajes agrícolas, con base cerca de Ollantaytambo.",
+          "lugares": [
+            "Pisac",
+            "Ollantaytambo",
+            "Terrazas de Moray"
+          ],
+          "traslado": "Tren a Aguas Calientes"
+        },
+        {
+          "ciudad": "Machu Picchu y regreso",
+          "rango": "8–10",
+          "dias": 3,
+          "descripcion": "Una jornada de visita, sujeta a reserva y condiciones vigentes, y regreso a Cusco.",
+          "lugares": [
+            "Machu Picchu",
+            "Aguas Calientes",
+            "Cusco"
+          ],
+          "traslado": "Fin de la ruta en Cusco"
+        }
+      ],
+      "documentos": [
+        "RUT-PE-001",
+        "PRE-PE-001"
+      ]
+    },
+    {
+      "id": "RUT-MA-001",
+      "codigo": "MA",
+      "pais": "Marruecos",
+      "continente": "África",
+      "titulo": "Donde empieza el desierto",
+      "titulo_completo": "Marruecos, donde empieza el desierto",
+      "dias": 8,
+      "noches": 7,
+      "precio": 890,
+      "categoria": "Cultura & paisajes",
+      "etiqueta": "Otro ritmo, otra luz",
+      "descripcion": "De los patios de Marrakech a las dunas de Merzouga. Una ruta por carretera con espacio para mirar alrededor.",
+      "temporada": "Primavera u otoño",
+      "transporte": "Coche con conductor compartido",
+      "presupuesto": [
+        {
+          "concepto": "Alojamiento",
+          "importe": 280
+        },
+        {
+          "concepto": "Transporte en destino",
+          "importe": 230
+        },
+        {
+          "concepto": "Comidas",
+          "importe": 160
+        },
+        {
+          "concepto": "Visitas y actividades",
+          "importe": 120
+        },
+        {
+          "concepto": "Margen para imprevistos",
+          "importe": 100
+        }
+      ],
+      "etapas": [
+        {
+          "ciudad": "Marrakech",
+          "rango": "1–2",
+          "dias": 2,
+          "descripcion": "Primeras jornadas para descubrir la medina y sus jardines con calma.",
+          "lugares": [
+            "Jemaa el-Fna",
+            "Palacio de la Bahía",
+            "Jardines de la Menara"
+          ],
+          "traslado": "Carretera por el Alto Atlas"
+        },
+        {
+          "ciudad": "Ait Ben Haddou",
+          "rango": "3",
+          "dias": 1,
+          "descripcion": "Una parada entre arquitectura de tierra y paisajes del sur.",
+          "lugares": [
+            "Ksar de Ait Ben Haddou",
+            "Ouarzazate"
+          ],
+          "traslado": "Carretera hacia el valle del Dadès"
+        },
+        {
+          "ciudad": "Dadès y Todra",
+          "rango": "4–5",
+          "dias": 2,
+          "descripcion": "Camina por los valles y descubre pueblos entre paredes de roca.",
+          "lugares": [
+            "Valle del Dadès",
+            "Gargantas del Todra"
+          ],
+          "traslado": "Carretera hasta Merzouga"
+        },
+        {
+          "ciudad": "Merzouga y regreso",
+          "rango": "6–8",
+          "dias": 3,
+          "descripcion": "Una noche cerca de las dunas y dos jornadas para regresar a Marrakech, con una parada intermedia.",
+          "lugares": [
+            "Dunas de Erg Chebbi",
+            "Merzouga",
+            "Valle del Draa"
+          ],
+          "traslado": "Fin de la ruta en Marrakech"
+        }
+      ],
+      "documentos": [
+        "RUT-MA-001",
+        "PRE-MA-001"
+      ]
+    },
+    {
+      "id": "RUT-NZ-001",
+      "codigo": "NZ",
+      "pais": "Nueva Zelanda",
+      "continente": "Oceanía",
+      "titulo": "La naturaleza a lo grande",
+      "titulo_completo": "Nueva Zelanda, la naturaleza a lo grande",
+      "dias": 14,
+      "noches": 13,
+      "precio": 2480,
+      "categoria": "Carretera & naturaleza",
+      "etiqueta": "Para cambiar de perspectiva",
+      "descripcion": "Dos semanas en la Isla Sur, entre lagos, valles y rutas a pie. Un recorrido de distancias amplias, con días de margen.",
+      "temporada": "Verano austral, a confirmar",
+      "transporte": "Coche de alquiler compartido",
+      "presupuesto": [
+        {
+          "concepto": "Alojamiento",
+          "importe": 910
+        },
+        {
+          "concepto": "Transporte en destino",
+          "importe": 620
+        },
+        {
+          "concepto": "Comidas",
+          "importe": 490
+        },
+        {
+          "concepto": "Visitas y actividades",
+          "importe": 280
+        },
+        {
+          "concepto": "Margen para imprevistos",
+          "importe": 180
+        }
+      ],
+      "etapas": [
+        {
+          "ciudad": "Christchurch",
+          "rango": "1–2",
+          "dias": 2,
+          "descripcion": "Toma contacto con la isla y prepara el recorrido por carretera.",
+          "lugares": [
+            "Jardín Botánico",
+            "Riverside Market"
+          ],
+          "traslado": "Carretera hacia el lago Tekapo"
+        },
+        {
+          "ciudad": "Tekapo y Aoraki",
+          "rango": "3–6",
+          "dias": 4,
+          "descripcion": "Explora lagos y senderos eligiendo recorridos según la meteorología.",
+          "lugares": [
+            "Lago Tekapo",
+            "Lago Pukaki",
+            "Parque Aoraki / Mount Cook"
+          ],
+          "traslado": "Carretera a Wānaka"
+        },
+        {
+          "ciudad": "Wānaka",
+          "rango": "7–9",
+          "dias": 3,
+          "descripcion": "Tres jornadas de paseos junto al lago y naturaleza, con margen para descansar.",
+          "lugares": [
+            "Lago Wānaka",
+            "Mount Iron",
+            "Glendhu Bay"
+          ],
+          "traslado": "Carretera a Queenstown"
+        },
+        {
+          "ciudad": "Queenstown y Fiordland",
+          "rango": "10–14",
+          "dias": 5,
+          "descripcion": "Combina la ciudad con una estancia en Te Anau y una excursión al fiordo si las condiciones lo permiten.",
+          "lugares": [
+            "Queenstown",
+            "Te Anau",
+            "Milford Sound"
+          ],
+          "traslado": "Fin de la ruta en Queenstown"
+        }
+      ],
+      "documentos": [
+        "RUT-NZ-001",
+        "PRE-NZ-001"
+      ]
+    },
+    {
+      "id": "RUT-MX-001",
+      "codigo": "MX",
+      "pais": "México",
+      "continente": "América",
+      "titulo": "Los colores de Yucatán",
+      "titulo_completo": "México, los colores de Yucatán",
+      "dias": 9,
+      "noches": 8,
+      "precio": 1190,
+      "categoria": "Cultura & costa",
+      "etiqueta": "Un viaje lleno de color",
+      "descripcion": "Ciudades coloridas, historia maya y agua turquesa. Una propuesta por la península para alternar visitas y descanso.",
+      "temporada": "Meses secos, a confirmar",
+      "transporte": "Autobús y traslados compartidos",
+      "presupuesto": [
+        {
+          "concepto": "Alojamiento",
+          "importe": 400
+        },
+        {
+          "concepto": "Transporte en destino",
+          "importe": 160
+        },
+        {
+          "concepto": "Comidas",
+          "importe": 250
+        },
+        {
+          "concepto": "Visitas y actividades",
+          "importe": 250
+        },
+        {
+          "concepto": "Margen para imprevistos",
+          "importe": 130
+        }
+      ],
+      "etapas": [
+        {
+          "ciudad": "Mérida",
+          "rango": "1–3",
+          "dias": 3,
+          "descripcion": "Usa la ciudad como base para descubrir mercados y hacer una salida a Uxmal.",
+          "lugares": [
+            "Paseo de Montejo",
+            "Centro de Mérida",
+            "Uxmal"
+          ],
+          "traslado": "Traslado a Valladolid"
+        },
+        {
+          "ciudad": "Valladolid",
+          "rango": "4–5",
+          "dias": 2,
+          "descripcion": "Pasea por el centro y reserva una jornada para visitar Chichén Itzá.",
+          "lugares": [
+            "Centro de Valladolid",
+            "Chichén Itzá",
+            "Cenote cercano, según acceso"
+          ],
+          "traslado": "Traslado a Tulum"
+        },
+        {
+          "ciudad": "Tulum",
+          "rango": "6–7",
+          "dias": 2,
+          "descripcion": "Combina una visita cultural con tiempo junto al mar.",
+          "lugares": [
+            "Zona arqueológica de Tulum",
+            "Playa de Tulum"
+          ],
+          "traslado": "Traslado a Bacalar"
+        },
+        {
+          "ciudad": "Bacalar",
+          "rango": "8–9",
+          "dias": 2,
+          "descripcion": "Termina con paseos por el pueblo y actividades tranquilas en la laguna.",
+          "lugares": [
+            "Laguna de Bacalar",
+            "Centro de Bacalar"
+          ],
+          "traslado": "Fin de la ruta en Bacalar"
+        }
+      ],
+      "documentos": [
+        "RUT-MX-001",
+        "PRE-MX-001"
+      ]
+    }
+  ],
+  "origen": "maquetas.html",
+  "datos_de_ejemplo": true,
+  "ruta_por_defecto": "RUT-JP-001"
+}

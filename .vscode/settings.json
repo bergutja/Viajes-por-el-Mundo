@@ -1,0 +1,7 @@
+{
+  "git.enabled": true,
+  "git.autoRepositoryDetection": true,
+  "git.openRepositoryInParentFolders": "never",
+  "scm.alwaysShowRepositories": true,
+  "python.terminal.useEnvFile": true
+}

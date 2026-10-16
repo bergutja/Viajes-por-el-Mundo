@@ -1,0 +1,21 @@
+export const iconPaths: Record<string, string> = {
+  "compass": "<circle cx=\"12\" cy=\"12\" r=\"9.5\"/><path d=\"m16 8-2.5 5.5L8 16l2.5-5.5L16 8Z\"/><path d=\"m10.5 10.5 3 3\"/>",
+  "arrow": "<path d=\"M4 12h16m-6-6 6 6-6 6\"/>",
+  "search": "<circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"m16 16 4 4\"/>",
+  "clock": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 7v5l3 2\"/>",
+  "pin": "<path d=\"M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z\"/><circle cx=\"12\" cy=\"10\" r=\"2.5\"/>",
+  "bookmark": "<path d=\"M6 4h12v17l-6-4-6 4V4Z\"/>",
+  "file": "<path d=\"M14 3H5v18h14V8l-5-5Z\"/><path d=\"M14 3v5h5M8 12h8M8 16h6\"/>",
+  "spark": "<path d=\"m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3ZM20 2v4m-2-2h4\"/>",
+  "chat": "<path d=\"M20 15a3 3 0 0 1-3 3H9l-5 3V6a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v9Z\"/><path d=\"M8 8h8M8 12h5\"/>",
+  "check": "<path d=\"m5 12 4 4L19 6\"/>",
+  "info": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v6M12 7v.1\"/>",
+  "close": "<path d=\"m6 6 12 12M6 18 18 6\"/>",
+  "globe": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><ellipse cx=\"12\" cy=\"12\" rx=\"4\" ry=\"9\"/><path d=\"M3 12h18M5 7h14M5 17h14\"/>",
+  "chevron": "<path d=\"m9 5 7 7-7 7\"/>",
+  "train": "<rect x=\"5\" y=\"3\" width=\"14\" height=\"15\" rx=\"4\"/><path d=\"M5 10h14M12 3v7M8 14h.1M16 14h.1M8 18l-2 3m10-3 2 3M7 21h10\"/>",
+  "send": "<path d=\"m3 3 18 9-18 9 3-9-3-9Zm3 9h15\"/>",
+  "folder": "<path d=\"M3 7V4h7l2 3h9v13H3V7Z\"/>",
+  "download": "<path d=\"M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5\"/>",
+  "leaf": "<path d=\"M20 3C7 2 2 8 5 15s16 8 15-12ZM4 21 16 8\"/>"
+}

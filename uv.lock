@@ -402,6 +402,7 @@ dependencies = [
     { name = "fastapi" },
     { name = "numpy" },
     { name = "openai" },
+    { name = "pydantic" },
     { name = "python-dotenv" },
     { name = "uvicorn" },
 ]
@@ -411,6 +412,7 @@ requires-dist = [
     { name = "fastapi", specifier = ">=0.143.2" },
     { name = "numpy", specifier = ">=2.5.4" },
     { name = "openai", specifier = ">=3.31.0" },
+    { name = "pydantic", specifier = ">=2.14.1" },
     { name = "python-dotenv", specifier = ">=1.2.4" },
     { name = "uvicorn", specifier = ">=0.54.0" },
 ]

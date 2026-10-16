@@ -1,0 +1,7 @@
+{
+  "pregunta": "¿Cuál es el coste de la ruta?",
+  "historial": [
+    {"rol": "user", "contenido": "Quiero visitar Japón, en Asia."},
+    {"rol": "assistant", "contenido": "La ruta propuesta dura 12 días y 11 noches."}
+  ]
+}

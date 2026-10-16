@@ -1,0 +1,315 @@
+{
+  "origen": "maquetas.html",
+  "datos_de_ejemplo": true,
+  "ruta_por_defecto": "RUT-JP-001",
+  "cobertura": {
+    "itinerarios": true,
+    "presupuestos": true,
+    "viajes_realizados": false
+  },
+  "documentos": [
+    {
+      "id": "RUT-JP-001",
+      "titulo": "Japón · Itinerario esencial",
+      "tipo": "Itinerario",
+      "region": "Asia",
+      "pais": "Japón",
+      "fecha": "12/10/2026",
+      "etiqueta": "Documento de ejemplo",
+      "fragmentos": [
+        {
+          "id": "RUT-JP-001:1",
+          "seccion": "Destino y enfoque",
+          "texto": "Continente: Asia. País: Japón. Ruta cultural, urbana y de naturaleza: Tokio → Hakone → Kioto (excursión a Nara) → Osaka."
+        },
+        {
+          "id": "RUT-JP-001:2",
+          "seccion": "Distribución de días",
+          "texto": "Duración: 12 días / 11 noches. Días 1–4: Tokio; 5–6: Hakone; 7–10: Kioto y Nara; 11–12: Osaka. Los traslados se incluyen en estas jornadas."
+        },
+        {
+          "id": "RUT-JP-001:3",
+          "seccion": "Lugares propuestos",
+          "texto": "Tokio: Sensō-ji, Shibuya, Jardines de Shinjuku. Hakone: Lago Ashi, Santuario de Hakone, Museo al Aire Libre. Kioto y Nara: Fushimi Inari, Arashiyama, Gion, Tōdai-ji, Nara. Osaka: Dōtonbori, Castillo de Osaka, Mercado Kuromon."
+        }
+      ]
+    },
+    {
+      "id": "PRE-JP-001",
+      "titulo": "Japón · Presupuesto de ruta",
+      "tipo": "Presupuesto",
+      "region": "Asia",
+      "pais": "Japón",
+      "fecha": "14/10/2026",
+      "etiqueta": "Registro simulado",
+      "fragmentos": [
+        {
+          "id": "PRE-JP-001:1",
+          "seccion": "Desglose e inclusiones",
+          "texto": "Total por persona: 1.850 €. Alojamiento (11 noches): 770 €; transporte: 320 €; comidas: 420 €; visitas: 180 €; imprevistos: 160 €. Habitación doble compartida. Excluye vuelos internacionales y seguro."
+        },
+        {
+          "id": "PRE-JP-001:2",
+          "seccion": "Supuestos del presupuesto",
+          "texto": "Estimación ficticia por persona para dos adultos compartiendo habitación doble. Sin tarifas en directo, disponibilidad ni reservas. Los precios y fechas de este registro pertenecen exclusivamente a la demostración."
+        }
+      ]
+    },
+    {
+      "id": "RUT-PT-001",
+      "titulo": "Portugal · Itinerario esencial",
+      "tipo": "Itinerario",
+      "region": "Europa",
+      "pais": "Portugal",
+      "fecha": "12/10/2026",
+      "etiqueta": "Documento de ejemplo",
+      "fragmentos": [
+        {
+          "id": "RUT-PT-001:1",
+          "seccion": "Destino y enfoque",
+          "texto": "Continente: Europa. País: Portugal. Enfoque: Ciudad & gastronomía. Etapas: Lisboa → Sintra → Oporto."
+        },
+        {
+          "id": "RUT-PT-001:2",
+          "seccion": "Distribución de días",
+          "texto": "Duración: 7 días / 6 noches. Días 1–3: Lisboa; Días 4: Sintra; Días 5–7: Oporto. Los traslados se incluyen en estas jornadas."
+        },
+        {
+          "id": "RUT-PT-001:3",
+          "seccion": "Lugares propuestos",
+          "texto": "Lisboa: Alfama, Belém, Mirador de Santa Lucía. Sintra: Palacio da Pena, Quinta da Regaleira. Oporto: Ribeira, Puente de Dom Luís I, Jardines del Palacio de Cristal."
+        }
+      ]
+    },
+    {
+      "id": "PRE-PT-001",
+      "titulo": "Portugal · Presupuesto de ruta",
+      "tipo": "Presupuesto",
+      "region": "Europa",
+      "pais": "Portugal",
+      "fecha": "14/10/2026",
+      "etiqueta": "Registro simulado",
+      "fragmentos": [
+        {
+          "id": "PRE-PT-001:1",
+          "seccion": "Desglose e inclusiones",
+          "texto": "Total por persona: 790 €. Alojamiento: 300 €; Transporte en destino: 95 €; Comidas: 210 €; Visitas y actividades: 90 €; Margen para imprevistos: 95 €. Alojamiento: 6 noches en habitación doble compartida. Excluye vuelos internacionales y seguro."
+        },
+        {
+          "id": "PRE-PT-001:2",
+          "seccion": "Supuestos del presupuesto",
+          "texto": "Estimación ficticia por persona para dos adultos compartiendo habitación doble. Sin tarifas en directo, disponibilidad ni reservas. Los precios y fechas de este registro pertenecen exclusivamente a la demostración."
+        }
+      ]
+    },
+    {
+      "id": "RUT-PE-001",
+      "titulo": "Perú · Itinerario esencial",
+      "tipo": "Itinerario",
+      "region": "América",
+      "pais": "Perú",
+      "fecha": "12/10/2026",
+      "etiqueta": "Documento de ejemplo",
+      "fragmentos": [
+        {
+          "id": "RUT-PE-001:1",
+          "seccion": "Destino y enfoque",
+          "texto": "Continente: América. País: Perú. Enfoque: Historia & aventura. Etapas: Lima → Cusco → Valle Sagrado → Machu Picchu y regreso."
+        },
+        {
+          "id": "RUT-PE-001:2",
+          "seccion": "Distribución de días",
+          "texto": "Duración: 10 días / 9 noches. Días 1–2: Lima; Días 3–5: Cusco; Días 6–7: Valle Sagrado; Días 8–10: Machu Picchu y regreso. Los traslados se incluyen en estas jornadas."
+        },
+        {
+          "id": "RUT-PE-001:3",
+          "seccion": "Lugares propuestos",
+          "texto": "Lima: Barranco, Malecón de Miraflores, Centro histórico. Cusco: San Blas, Plaza de Armas, Sacsayhuamán. Valle Sagrado: Pisac, Ollantaytambo, Terrazas de Moray. Machu Picchu y regreso: Machu Picchu, Aguas Calientes, Cusco."
+        }
+      ]
+    },
+    {
+      "id": "PRE-PE-001",
+      "titulo": "Perú · Presupuesto de ruta",
+      "tipo": "Presupuesto",
+      "region": "América",
+      "pais": "Perú",
+      "fecha": "14/10/2026",
+      "etiqueta": "Registro simulado",
+      "fragmentos": [
+        {
+          "id": "PRE-PE-001:1",
+          "seccion": "Desglose e inclusiones",
+          "texto": "Total por persona: 1390 €. Alojamiento: 360 €; Transporte en destino: 380 €; Comidas: 250 €; Visitas y actividades: 280 €; Margen para imprevistos: 120 €. Alojamiento: 9 noches en habitación doble compartida. Excluye vuelos internacionales y seguro."
+        },
+        {
+          "id": "PRE-PE-001:2",
+          "seccion": "Supuestos del presupuesto",
+          "texto": "Estimación ficticia por persona para dos adultos compartiendo habitación doble. Sin tarifas en directo, disponibilidad ni reservas. Los precios y fechas de este registro pertenecen exclusivamente a la demostración."
+        }
+      ]
+    },
+    {
+      "id": "RUT-MA-001",
+      "titulo": "Marruecos · Itinerario esencial",
+      "tipo": "Itinerario",
+      "region": "África",
+      "pais": "Marruecos",
+      "fecha": "12/10/2026",
+      "etiqueta": "Documento de ejemplo",
+      "fragmentos": [
+        {
+          "id": "RUT-MA-001:1",
+          "seccion": "Destino y enfoque",
+          "texto": "Continente: África. País: Marruecos. Enfoque: Cultura & paisajes. Etapas: Marrakech → Ait Ben Haddou → Dadès y Todra → Merzouga y regreso."
+        },
+        {
+          "id": "RUT-MA-001:2",
+          "seccion": "Distribución de días",
+          "texto": "Duración: 8 días / 7 noches. Días 1–2: Marrakech; Días 3: Ait Ben Haddou; Días 4–5: Dadès y Todra; Días 6–8: Merzouga y regreso. Los traslados se incluyen en estas jornadas."
+        },
+        {
+          "id": "RUT-MA-001:3",
+          "seccion": "Lugares propuestos",
+          "texto": "Marrakech: Jemaa el-Fna, Palacio de la Bahía, Jardines de la Menara. Ait Ben Haddou: Ksar de Ait Ben Haddou, Ouarzazate. Dadès y Todra: Valle del Dadès, Gargantas del Todra. Merzouga y regreso: Dunas de Erg Chebbi, Merzouga, Valle del Draa."
+        }
+      ]
+    },
+    {
+      "id": "PRE-MA-001",
+      "titulo": "Marruecos · Presupuesto de ruta",
+      "tipo": "Presupuesto",
+      "region": "África",
+      "pais": "Marruecos",
+      "fecha": "14/10/2026",
+      "etiqueta": "Registro simulado",
+      "fragmentos": [
+        {
+          "id": "PRE-MA-001:1",
+          "seccion": "Desglose e inclusiones",
+          "texto": "Total por persona: 890 €. Alojamiento: 280 €; Transporte en destino: 230 €; Comidas: 160 €; Visitas y actividades: 120 €; Margen para imprevistos: 100 €. Alojamiento: 7 noches en habitación doble compartida. Excluye vuelos internacionales y seguro."
+        },
+        {
+          "id": "PRE-MA-001:2",
+          "seccion": "Supuestos del presupuesto",
+          "texto": "Estimación ficticia por persona para dos adultos compartiendo habitación doble. Sin tarifas en directo, disponibilidad ni reservas. Los precios y fechas de este registro pertenecen exclusivamente a la demostración."
+        }
+      ]
+    },
+    {
+      "id": "RUT-NZ-001",
+      "titulo": "Nueva Zelanda · Itinerario esencial",
+      "tipo": "Itinerario",
+      "region": "Oceanía",
+      "pais": "Nueva Zelanda",
+      "fecha": "12/10/2026",
+      "etiqueta": "Documento de ejemplo",
+      "fragmentos": [
+        {
+          "id": "RUT-NZ-001:1",
+          "seccion": "Destino y enfoque",
+          "texto": "Continente: Oceanía. País: Nueva Zelanda. Enfoque: Carretera & naturaleza. Etapas: Christchurch → Tekapo y Aoraki → Wānaka → Queenstown y Fiordland."
+        },
+        {
+          "id": "RUT-NZ-001:2",
+          "seccion": "Distribución de días",
+          "texto": "Duración: 14 días / 13 noches. Días 1–2: Christchurch; Días 3–6: Tekapo y Aoraki; Días 7–9: Wānaka; Días 10–14: Queenstown y Fiordland. Los traslados se incluyen en estas jornadas."
+        },
+        {
+          "id": "RUT-NZ-001:3",
+          "seccion": "Lugares propuestos",
+          "texto": "Christchurch: Jardín Botánico, Riverside Market. Tekapo y Aoraki: Lago Tekapo, Lago Pukaki, Parque Aoraki / Mount Cook. Wānaka: Lago Wānaka, Mount Iron, Glendhu Bay. Queenstown y Fiordland: Queenstown, Te Anau, Milford Sound."
+        }
+      ]
+    },
+    {
+      "id": "PRE-NZ-001",
+      "titulo": "Nueva Zelanda · Presupuesto de ruta",
+      "tipo": "Presupuesto",
+      "region": "Oceanía",
+      "pais": "Nueva Zelanda",
+      "fecha": "14/10/2026",
+      "etiqueta": "Registro simulado",
+      "fragmentos": [
+        {
+          "id": "PRE-NZ-001:1",
+          "seccion": "Desglose e inclusiones",
+          "texto": "Total por persona: 2480 €. Alojamiento: 910 €; Transporte en destino: 620 €; Comidas: 490 €; Visitas y actividades: 280 €; Margen para imprevistos: 180 €. Alojamiento: 13 noches en habitación doble compartida. Excluye vuelos internacionales y seguro."
+        },
+        {
+          "id": "PRE-NZ-001:2",
+          "seccion": "Supuestos del presupuesto",
+          "texto": "Estimación ficticia por persona para dos adultos compartiendo habitación doble. Sin tarifas en directo, disponibilidad ni reservas. Los precios y fechas de este registro pertenecen exclusivamente a la demostración."
+        }
+      ]
+    },
+    {
+      "id": "RUT-MX-001",
+      "titulo": "México · Itinerario esencial",
+      "tipo": "Itinerario",
+      "region": "América",
+      "pais": "México",
+      "fecha": "12/10/2026",
+      "etiqueta": "Documento de ejemplo",
+      "fragmentos": [
+        {
+          "id": "RUT-MX-001:1",
+          "seccion": "Destino y enfoque",
+          "texto": "Continente: América. País: México. Enfoque: Cultura & costa. Etapas: Mérida → Valladolid → Tulum → Bacalar."
+        },
+        {
+          "id": "RUT-MX-001:2",
+          "seccion": "Distribución de días",
+          "texto": "Duración: 9 días / 8 noches. Días 1–3: Mérida; Días 4–5: Valladolid; Días 6–7: Tulum; Días 8–9: Bacalar. Los traslados se incluyen en estas jornadas."
+        },
+        {
+          "id": "RUT-MX-001:3",
+          "seccion": "Lugares propuestos",
+          "texto": "Mérida: Paseo de Montejo, Centro de Mérida, Uxmal. Valladolid: Centro de Valladolid, Chichén Itzá, Cenote cercano, según acceso. Tulum: Zona arqueológica de Tulum, Playa de Tulum. Bacalar: Laguna de Bacalar, Centro de Bacalar."
+        }
+      ]
+    },
+    {
+      "id": "PRE-MX-001",
+      "titulo": "México · Presupuesto de ruta",
+      "tipo": "Presupuesto",
+      "region": "América",
+      "pais": "México",
+      "fecha": "14/10/2026",
+      "etiqueta": "Registro simulado",
+      "fragmentos": [
+        {
+          "id": "PRE-MX-001:1",
+          "seccion": "Desglose e inclusiones",
+          "texto": "Total por persona: 1190 €. Alojamiento: 400 €; Transporte en destino: 160 €; Comidas: 250 €; Visitas y actividades: 250 €; Margen para imprevistos: 130 €. Alojamiento: 8 noches en habitación doble compartida. Excluye vuelos internacionales y seguro."
+        },
+        {
+          "id": "PRE-MX-001:2",
+          "seccion": "Supuestos del presupuesto",
+          "texto": "Estimación ficticia por persona para dos adultos compartiendo habitación doble. Sin tarifas en directo, disponibilidad ni reservas. Los precios y fechas de este registro pertenecen exclusivamente a la demostración."
+        }
+      ]
+    },
+    {
+      "id": "CAT-000",
+      "titulo": "Alcance de la biblioteca",
+      "tipo": "Catálogo",
+      "region": "Global",
+      "pais": "Todos los destinos",
+      "fecha": "16/10/2026",
+      "etiqueta": "Registro simulado",
+      "fragmentos": [
+        {
+          "id": "CAT-000:1",
+          "seccion": "Cobertura y limitaciones",
+          "texto": "Esta colección contiene 6 itinerarios y 6 presupuestos. No contiene reservas, salidas realizadas, número de viajeros ni estadísticas de ejecución por año."
+        },
+        {
+          "id": "CAT-000:2",
+          "seccion": "Naturaleza del contenido",
+          "texto": "Las seis rutas son propuestas ficticias, no viajes realizados. La colección incluye este registro de alcance, para un total de 13 documentos y registros. No hay conexión a fuentes en tiempo real."
+        }
+      ]
+    }
+  ]
+}
